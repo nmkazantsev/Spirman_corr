@@ -125,7 +125,7 @@ for g in range(start_cur_time, len(res)):
 
 summ = 0
 for i in range(len(res)):
-    print(res[i].rang_stress, res[i].rang_time)
+    print(res[i].rang_stress, res[i].stress, res[i].rang_time, res[i].time)
     summ += (res[i].rang_stress - res[i].rang_time) ** 2
 
 n = len(res)
